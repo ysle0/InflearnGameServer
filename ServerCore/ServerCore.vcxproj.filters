@@ -7,6 +7,9 @@
     <Filter Include="Utils">
       <UniqueIdentifier>{1c94faf8-d38f-44b3-b3f3-39ba3c6951e1}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Documents">
+      <UniqueIdentifier>{32338225-e17b-47f4-87b3-4c618f7bceef}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h">
@@ -26,5 +29,8 @@
     <ClCompile Include="CorePch.cpp">
       <Filter>Utils</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="spdlog_compile_err.md" />
   </ItemGroup>
 </Project>
